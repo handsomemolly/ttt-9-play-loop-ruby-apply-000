@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  while position_taken? == false && valid_move?(board, index) == true
-  turn(board)
+  i = 0 
+  while i < 9
+  i+= 1
 end
